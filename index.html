@@ -61,9 +61,16 @@
 
     <!-- About Section -->
     <section id="about" class="content-section text-left" style="height: 550px;background-color: #060513" >
+      <!--<img src="play-button.png" style="height: 60px; margin-left: 1130px; margin-top: 50px" onclick="draw()">-->
+      <form>
+        <button type=button class=btn onclick="helper(5, -5, 100, 4, 4)" style="color: #b41c28">EASY</button>
+        <button type=button class=btn onclick="helper(7, -7, 85, 4, 3)" style="color: #b41c28">MEDIUM</button>
+        <button type=button class=btn onclick="helper(8, -8, 75, 4, 3)" style="color: #b41c28">HARD</button>
+      </form>
 
-        <img src="play-button.png" style="height: 70px" onclick="draw()">
         <canvas id="myCanvas" width="645" height="500" style="margin-top: 660px"></canvas>
+
+
     </section>
 
     <!-- Download Section -->

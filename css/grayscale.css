@@ -110,17 +110,17 @@ a {
     display: table-cell;
     vertical-align: middle; }
     .masthead .intro-body .brand-heading {
-      font-size: 50px; }
+      font-size: 70px; }
     .masthead .intro-body .intro-text {
-      font-size: 18px; }
+      font-size: 32px; }
   @media (min-width: 768px) {
     .masthead {
       height: 100%;
       padding: 0; }
       .masthead .intro-body .brand-heading {
-        font-size: 100px; }
+        font-size: 70px; }
       .masthead .intro-body .intro-text {
-        font-size: 22px; } }
+        font-size: 32px; } }
 
 .btn-circle {
   font-size: 26px;
