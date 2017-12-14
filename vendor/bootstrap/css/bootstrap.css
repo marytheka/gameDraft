@@ -38,11 +38,11 @@
   display: block;
 }
   background-color:red;
-  font:bold 14px Arial;
-  width:200;
-  height:100;
+  font:bold 50px Arial;
+  width:500;
+  height:200;
   background-color:green;
-}
+
 
 @media print {
   *,
